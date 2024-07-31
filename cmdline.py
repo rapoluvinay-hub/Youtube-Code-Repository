@@ -69,6 +69,7 @@ if __name__ == '__main__':
     # agent. For simplicity I'm just showing alpha and gamma, but it can be
     # the epsilons as well. You can even include parameters for the fully
     # connected layers and use them as part of the file name.
+    # dddddddddddddddddddddddddddddddddddddddddd
     filename = args.env + '_alpha' + str(args.lr) + '_gamma' + str(args.gamma) + \
               '.png'
     plotLearning(x, scores, eps_history, filename)
